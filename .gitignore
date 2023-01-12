@@ -35,3 +35,12 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Mac OS X
+*.DS_Store
+
+# Xcode
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+ipa/
