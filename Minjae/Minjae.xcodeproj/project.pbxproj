@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B50CFD9F2981764A0065D52D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50CFD9E2981764A0065D52D /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B53F55182970181D002F7624 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,6 +23,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B50CFD8F297BDA110065D52D /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		B50CFD91297BE5190065D52D /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		B50CFD942981233A0065D52D /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		B50CFD96298126BB0065D52D /* 특정거리의 도시찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "특정거리의 도시찾기.swift"; sourceTree = "<group>"; };
+		B50CFD9829813AF90065D52D /* 연구소.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "연구소.swift"; sourceTree = "<group>"; };
+		B50CFD9A2981671F0065D52D /* 경쟁적 전염.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "경쟁적 전염.swift"; sourceTree = "<group>"; };
+		B50CFD9C298175480065D52D /* 경쟁적 전염-test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "경쟁적 전염-test.swift"; sourceTree = "<group>"; };
+		B50CFD9E2981764A0065D52D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B53F551A2970181D002F7624 /* Minjae */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Minjae; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53F55242970190F002F7624 /* 순열.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "순열.swift"; sourceTree = "<group>"; };
 		B53F55262970190F002F7624 /* 왕실의 나이트.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "왕실의 나이트.swift"; sourceTree = "<group>"; };
@@ -46,6 +58,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B50CFD8E297BD9FA0065D52D /* DFS_BFS */ = {
+			isa = PBXGroup;
+			children = (
+				B50CFD8F297BDA110065D52D /* DFS.swift */,
+				B50CFD91297BE5190065D52D /* Queue.swift */,
+				B50CFD942981233A0065D52D /* BFS.swift */,
+				B50CFD96298126BB0065D52D /* 특정거리의 도시찾기.swift */,
+				B50CFD9829813AF90065D52D /* 연구소.swift */,
+				B50CFD9A2981671F0065D52D /* 경쟁적 전염.swift */,
+				B50CFD9C298175480065D52D /* 경쟁적 전염-test.swift */,
+				B50CFD9E2981764A0065D52D /* main.swift */,
+			);
+			path = DFS_BFS;
+			sourceTree = "<group>";
+		};
 		B53F55112970181D002F7624 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +92,7 @@
 		B53F551C2970181D002F7624 /* Minjae */ = {
 			isa = PBXGroup;
 			children = (
+				B50CFD8E297BD9FA0065D52D /* DFS_BFS */,
 				B53F55252970190F002F7624 /* 구현 */,
 				B53F55242970190F002F7624 /* 순열.swift */,
 				B53F55312970190F002F7624 /* 조합.swift */,
@@ -122,6 +150,7 @@
 				TargetAttributes = {
 					B53F55192970181D002F7624 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -148,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50CFD9F2981764A0065D52D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +300,17 @@
 		B53F55222970181D002F7624 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AXN37CP9B9;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -281,9 +318,15 @@
 		B53F55232970181D002F7624 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AXN37CP9B9;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
