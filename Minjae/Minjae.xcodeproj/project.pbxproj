@@ -36,6 +36,8 @@
 		B50CFDAE2987BFF60065D52D /* 문자열 뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 뒤집기.swift"; sourceTree = "<group>"; };
 		B50CFDB22987E6F80065D52D /* 만들 수 없는 금액(저울).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "만들 수 없는 금액(저울).swift"; sourceTree = "<group>"; };
 		B50CFDB42988067D0065D52D /* 볼링공 고르기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "볼링공 고르기.swift"; sourceTree = "<group>"; };
+		B50CFDB8298BAE970065D52D /* 무지의 먹방 라이브.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "무지의 먹방 라이브.swift"; sourceTree = "<group>"; };
+		B50CFDBA298D17720065D52D /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		B53F551A2970181D002F7624 /* Minjae */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Minjae; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53F55242970190F002F7624 /* 순열.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "순열.swift"; sourceTree = "<group>"; };
 		B53F55262970190F002F7624 /* 왕실의 나이트.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "왕실의 나이트.swift"; sourceTree = "<group>"; };
@@ -66,9 +68,6 @@
 		B50CFD8E297BD9FA0065D52D /* DFS_BFS */ = {
 			isa = PBXGroup;
 			children = (
-				B50CFD8F297BDA110065D52D /* DFS.swift */,
-				B50CFD91297BE5190065D52D /* Queue.swift */,
-				B50CFD942981233A0065D52D /* BFS.swift */,
 				B50CFD96298126BB0065D52D /* 특정거리의 도시찾기.swift */,
 				B50CFD9829813AF90065D52D /* 연구소.swift */,
 				B50CFD9A2981671F0065D52D /* 경쟁적 전염.swift */,
@@ -90,6 +89,7 @@
 				B50CFDAE2987BFF60065D52D /* 문자열 뒤집기.swift */,
 				B50CFDB22987E6F80065D52D /* 만들 수 없는 금액(저울).swift */,
 				B50CFDB42988067D0065D52D /* 볼링공 고르기.swift */,
+				B50CFDB8298BAE970065D52D /* 무지의 먹방 라이브.swift */,
 			);
 			name = "그리디";
 			path = "그리디";
@@ -119,6 +119,10 @@
 				B53F55252970190F002F7624 /* 구현 */,
 				B53F55242970190F002F7624 /* 순열.swift */,
 				B53F55312970190F002F7624 /* 조합.swift */,
+				B50CFDBA298D17720065D52D /* Heap.swift */,
+				B50CFD8F297BDA110065D52D /* DFS.swift */,
+				B50CFD91297BE5190065D52D /* Queue.swift */,
+				B50CFD942981233A0065D52D /* BFS.swift */,
 			);
 			path = Minjae;
 			sourceTree = "<group>";
