@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B541F33729ACB0FD00F81DFE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541F33629ACB0FD00F81DFE /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		B53F55182970181D002F7624 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -75,7 +71,7 @@
 		B541F32E29AC20D300F81DFE /* 1로 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1로 만들기.swift"; sourceTree = "<group>"; };
 		B541F33229ACAB8800F81DFE /* 개미 전사.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "개미 전사.swift"; sourceTree = "<group>"; };
 		B541F33429ACAD1600F81DFE /* 바닥공사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "바닥공사.swift"; sourceTree = "<group>"; };
-		B541F33629ACB0FD00F81DFE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B541F33829AE3FCE00F81DFE /* 효율적인 화폐 구성.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "효율적인 화폐 구성.swift"; sourceTree = "<group>"; };
 		B57556422996615C005B02BB /* 부품찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "부품찾기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,10 +223,10 @@
 		B541F32D29AC20C600F81DFE /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				B541F33829AE3FCE00F81DFE /* 효율적인 화폐 구성.swift */,
 				B541F33229ACAB8800F81DFE /* 개미 전사.swift */,
 				B541F32E29AC20D300F81DFE /* 1로 만들기.swift */,
 				B541F33429ACAD1600F81DFE /* 바닥공사.swift */,
-				B541F33629ACB0FD00F81DFE /* main.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -294,7 +290,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B541F33729ACB0FD00F81DFE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
