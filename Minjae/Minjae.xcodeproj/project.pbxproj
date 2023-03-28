@@ -70,6 +70,7 @@
 		B57556422996615C005B02BB /* 부품찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "부품찾기.swift"; sourceTree = "<group>"; };
 		B598BD9029D1672A00FDEF04 /* Baaaaaaaaaduk2 (Easy).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baaaaaaaaaduk2 (Easy).swift"; sourceTree = "<group>"; };
 		B598BD9629D2F2B200FDEF04 /* 1로 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1로 만들기.swift"; sourceTree = "<group>"; };
+		B598BD9729D2F98C00FDEF04 /* 퇴사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "퇴사.swift"; sourceTree = "<group>"; };
 		B5C0BDCE29CA18C500372709 /* 불!.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "불!.swift"; sourceTree = "<group>"; };
 		B5C0BDD029CAE6D900372709 /* 정수삼각형.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "정수삼각형.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -225,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				B598BD9629D2F2B200FDEF04 /* 1로 만들기.swift */,
+				B598BD9729D2F98C00FDEF04 /* 퇴사.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
